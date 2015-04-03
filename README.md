@@ -2,7 +2,14 @@
 
 Docker image for [Program-O] which is a PHP MySQL AIML Chatbot.
 
-[Program-O]: https://github.com/Program-O/Program-O
+This image is also on [Docker Hub].
+
+## Getting the image
+
+You have two options to get the image:
+
+1. Build it yourself with `make build`.
+2. Download it via `docker pull ypid/program-o` ([automated build][Docker Hub])
 
 ## Usage
 
@@ -21,3 +28,6 @@ This Dockerfile is based on [jchaney/owncloud](https://github.com/jchaney/ownclo
 
 # Notes
 This is not yet tested.
+
+[Program-O]: https://github.com/Program-O/Program-O
+[Docker Hub]: https://registry.hub.docker.com/u/ypid/program-o/
