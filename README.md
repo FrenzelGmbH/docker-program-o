@@ -15,5 +15,9 @@ To start Program-O just change the credentials in the Makefile and then run `mak
 
 * [Howie](https://github.com/ypid/docker-howie)
 
+# Credits
+
+This Dockerfile is based on [jchaney/owncloud](https://github.com/jchaney/owncloud).
+
 # Notes
 This is not yet tested.
