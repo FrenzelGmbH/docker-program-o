@@ -39,6 +39,10 @@ program-o:
 	docker run -d \
 		--name "$@" \
 		-e "TZ=Europe/Berlin" \
+		-e DB_ENV_MYSQL_ROOT_PASSWORD=you_dont_need_to_know \
+		-e DB_ENV_MYSQL_USER=you_dont_need_to_know \
+		-e DB_ENV_MYSQL_DATABASE=you_dont_need_to_know \
+		-e DB_ENV_MYSQL_PASSWORD=you_dont_need_to_know \
 		-p 80:80 \
 		--link $(db_container_name):db \
 		$(image_chatbot_program_o)
