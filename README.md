@@ -18,10 +18,6 @@ The example in the Makefile uses bind mounts. Just change the db_storage variabl
 
 To start Program-O just change the credentials in the Makefile and then run `make run`.
 
-# Alternatives
-
-* [Howie](https://github.com/ypid/docker-howie)
-
 # Credits
 
 This Dockerfile is based on [jchaney/owncloud](https://github.com/jchaney/owncloud).
@@ -30,4 +26,3 @@ This Dockerfile is based on [jchaney/owncloud](https://github.com/jchaney/ownclo
 This is not yet tested.
 
 [Program-O]: https://github.com/Program-O/Program-O
-[Docker Hub]: https://registry.hub.docker.com/u/ypid/program-o/
