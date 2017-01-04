@@ -19,6 +19,6 @@ ADD         php.ini /etc/php5/fpm/
 ADD         bootstrap.sh /usr/sbin/
 
 EXPOSE      80666
-EXPOSE      443
+EXPOSE      44366
 
 ENTRYPOINT  ["bootstrap.sh"]
