@@ -18,7 +18,7 @@ ADD         nginx.conf /root/
 ADD         php.ini /etc/php5/fpm/
 ADD         bootstrap.sh /usr/sbin/
 
-EXPOSE      80666:80
-EXPOSE      44366:443
+EXPOSE      80:80666
+EXPOSE      443:44366
 
 ENTRYPOINT  ["bootstrap.sh"]
