@@ -32,6 +32,7 @@ db:
 		-e MYSQL_PASSWORD=$(db_pass) \
 		-e "TZ=Europe/Berlin" \
 		-v $(db_storage):/var/lib/mysql \
+		-p 3306:3306
 		mysql
 
 program-o:
